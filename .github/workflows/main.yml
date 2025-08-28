@@ -23,3 +23,6 @@ jobs:
 
     - name: Run flask
       run: python flask.py
+
+    - name: Run flask
+      run: python flask.py
