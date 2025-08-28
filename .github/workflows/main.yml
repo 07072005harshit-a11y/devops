@@ -20,9 +20,3 @@ jobs:
       
     - name: Run tests
       run: pytest test.py
-
-    - name: Install dependencies
-      run: pip install flask
-
-    - name: Run flask
-      run: python flask.py
