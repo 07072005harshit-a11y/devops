@@ -18,14 +18,11 @@ jobs:
     - name: Install dependencies
       run: pip install pytest
       
-    - name: Install dependencies
-      run: pip install flask
-
     - name: Run tests
       run: pytest test.py
 
-    - name: Run flask
-      run: python flask.py
+    - name: Install dependencies
+      run: pip install flask
 
     - name: Run flask
       run: python flask.py
