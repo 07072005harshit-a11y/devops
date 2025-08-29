@@ -22,5 +22,5 @@ jobs:
       run: pytest test.py
 
     - name: Build Docker Image
-      run: docker build -t devops-project .
+      run: docker build -t devops-project -f first.dockerfile
 
